@@ -101,13 +101,6 @@ lava:
     ; 128 + 128 * sin((x**2 + y**2) / 10000.0)
     ; wip
     ret
-    
-float_16_inline:
-    dd 0.5
-float_32_inline:
-    dd 32.0
-float_128_inline:
-    dd 128.0
 
 ; color maps
 cmap_mono:
